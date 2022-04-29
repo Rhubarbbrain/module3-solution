@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Nanum+Gothic:wght@400;700;800&display=swap');
+body {
+	background-color: burlywood;
+	font-family: 'Nanum Gothic' sans-serif;
+	font-size: 16px;
+	color: #222;
+}
+
+#header-nav {
+	background-color: #696969;
+	border: 0;
+	border-radius: 0;
+	height: 80px;
+	position:sticky;
+}
+
+.navbar-brand h1 {
+	margin: 0 auto;
+	color: #222;
+	text-transform: capitalize;
+padding-top: 15px;
+line-height: .75;
+cursor: pointer;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+.navbar-header button{
+	border: 1px solid #222;
+	margin:30px 10px 10px 0px;
+	
+}
+
+
+.main-content  {
+	font-size: 38px;
+	font-weight: bold;
+	position: relative;
+	margin-top: 55px;
+ 	margin-bottom: 50px;
+
+}
+
+#content {
+	margin: 10px;
+	background-color: #AAA5A5;  
+	position: relative;
+	z-index: 1;
+}
+
+
+
+#nav-list {
+	margin-top: 0px;
+	transition: 300ms;
+	
+	width: 100vw;
+
+}
+
+
+#nav-list a {
+	text-align: center;
+	color: #222;
+	font-weight: bold;
+	background-color: #797979;
+	border: 1px solid #222;
+	bo
+}
+
+#nav-list a:hover {
+	background-color: #AEAE52; 
+}
+
+ #top {
+	border: 1px solid black;
+	color: #222;
+	margin: 0 auto;
+	text-align: center;
+	width: 50%;
+	font-weight: bold;
+	line-height: 20px;
+}
+#top, .glyphicon {
+ margin:20px;
+ color: #222;
+ font-weight: bold;
+ border: 2px solid #222;
+}
+.navbar-default .navbar-collapse {
+  margin-top:0px;
+  border: 0px;
+  list-style-type: none;
+
+}  
+
+#main-content h2 {
+	font-weight: bold;
+	font-size: 2em;
+z-index: 1;
+
+}
